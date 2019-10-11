@@ -1,0 +1,109 @@
+<!-- Ce Qiu --><!-- Borui Yu (partner) -->
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Form Page</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <div class="container">
+      	<h1>Add New Article</h1>
+      	<br>
+      	<form>
+      	  <div class="form-group">
+      	  	<label for="exampleInputEmail1"><h4>Article Title</h4></label>
+      	  	<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Title">
+      	  </div>
+      	  <div class="form-group">
+      	  	<label for="exampleInputEmail1"><h4>Author Name</h4></label>
+      	  	<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+      	  </div>
+      	  <div class="row">
+      	    <div class="col">
+      	      <div class="form-group">
+      	  	    <label for="exampleFormControlFile1"><h4>Upload Files:</h4></label>
+      	  	    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      	      </div>
+      	    </div>
+      	    <div class="col">
+      	    	<label for="exampleFormControlFile1"><h4>Pages</h4></label>
+      	    	<select class="form-control">
+                  <option>Academics</option>
+                  <option>Non-academics</option>
+                  <option>I don't know what options should be included</option>
+                  <option>( ͡° ͜ʖ ͡°)</option>
+                </select>
+      	    </div>
+      	  </div>
+      	  <div class="form-group">
+            <label for="exampleFormControlTextarea1"><h4>Article Text</h4></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="20"></textarea>
+          </div>
+          <div class="row">
+          	<div class="col">
+          	  <div class="form-group">
+          	  	<label for="exampleFormControlTextarea1"><h4>Select Tags</h4></label><br>
+          	    <div class="form-check form-check-inline">
+          	      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+          	      <label class="form-check-label" for="inlineCheckbox1">Python</label>
+          	    </div>
+          	    <div class="form-check form-check-inline">
+          	  	  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+          	  	  <label class="form-check-label" for="inlineCheckbox1">C++</label>
+          	    </div>
+          	    <div class="form-check form-check-inline">
+          	      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+          	      <label class="form-check-label" for="inlineCheckbox1">Java</label>
+          	    </div>
+          	    <div class="form-check form-check-inline">
+            	  <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+          	      <label class="form-check-label" for="inlineCheckbox1">Scala</label>
+          	    </div>
+          	    <div class="form-check form-check-inline">
+          	      <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+          	      <label class="form-check-label" for="inlineCheckbox1">Perl</label>
+          	    </div>
+          	  </div>
+          	</div>
+          	<div class="col">
+          	  <div class="form-group">
+          	  	<label for="exampleFormControlTextarea1"><h4>Visibility</h4></label><br>
+          	  	<div class="btn-group btn-group-toggle" data-toggle="buttons">
+          	  		<label class="btn btn-secondary active">
+          	  			<input type="radio" name="options" id="option1" autocomplete="off" checked> Public
+          	  		</label>
+          	  		<label class="btn btn-secondary">
+          	  			<input type="radio" name="options" id="option2" autocomplete="off"> Private
+          	  		</label>
+          	  	</div>
+          	  </div>
+          	</div>
+          </div>
+          <div class="form-group">
+          	<label for="exampleFormControlTextarea1"><h4>Login to Finish Submitting</h4></label>
+          	<div class="row">
+              <div class="col">
+          	    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
+          	  </div>
+              <div class="col">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Password">
+              </div>
+            </div>
+            <br>
+            <div class="form-check form-check-inline">
+          	  <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option6">
+          	  <label class="form-check-label" for="inlineCheckbox1">Remember me</label>
+          	</div>
+          </div>
+          <div class="form-group">
+          	<div class="col-sm-10">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+      	</form>
+      </div>
+    </body>
+  </html>
